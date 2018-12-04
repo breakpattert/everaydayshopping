@@ -1,5 +1,5 @@
 # shopping-everyday
-
+# mpvue小程序项目 ，线上小程序搜索：天天逛街everyday
 > A Mpvue project
 
 ## Build Setup
