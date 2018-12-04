@@ -1,0 +1,212 @@
+
+  
+  .searchBoxWraper {
+    width: 100%;
+    padding: 10px 5px 10px 15px;
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    background: #fff;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+  
+    .searchBox {
+      .placeholder {
+        color: #b7b7b7;
+        font-size: 10px;
+        vertical-align: middle;
+      }
+  
+      background: #e8e8e8;
+      display: inline-block;
+      height: 30px;
+      line-height: 30px;
+      width: 100%;
+      border-radius: 15px;
+      padding-left: 12px;
+  
+      .searchIcon {
+        display: inline-block;
+        padding: 0 4px;
+        vertical-align: middle;
+      }
+  
+      .search {
+        display: inline-block;
+        width: 170px;
+        height: 20px;
+        line-height: 20px;
+        vertical-align: middle;
+      }
+    }
+  
+    .searchsend {
+      line-height: 30px;
+      color: #fff;
+      width: 55px;
+      height: 30px;
+      background-color: #ff455d;
+      border-radius: 0 15px 15px 0;
+      text-align: center;
+      position: relative;
+      right: 12px;
+    }
+  }
+  .iphoneX2 {
+    padding-bottom: 34px;
+  }
+.assessPopup {
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    height: 90vh;
+  
+    .h1 {
+      padding: 0 15px;
+      position: relative;
+  
+      i {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        padding: 0 15px;
+        font-size: 24px;
+      }
+    }
+  
+    .h2 {
+      padding: 0 15px;
+      background: #f2f2f2;
+    }
+  
+    .popupcontent {
+      height: calc(90vh - 40px - 40px - 50px - 20px);
+  
+      scroll-view {
+        height: 100%;
+      }
+    }
+  }
+  .iphonexbars {
+    height: 86px !important;
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    z-index: 1000;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+  }
+  
+  .alllist {
+    padding: 0px 15px;
+  }
+  
+  .praiseInfo {
+    padding: 15px 0px;
+  
+    .l {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+        border: 0.5px solid #e8e8e8;      
+        border-radius: 50%;
+      }
+
+      .ico{
+        width:11px;
+        height:11px;
+        background-image: url("#{$imgUrl}icon_authentication@2x.png");
+        position: absolute;
+        right:-2px;
+        bottom:-2px;
+      }
+    }
+  
+    .c {
+      span {
+        border: 0;
+  
+        i {
+          display: inline-block;
+        }
+      }
+    }
+  
+    .r {
+      width: 60px;
+      text-align: right;
+  
+      i {
+        width: 15px;
+        height: 16px;
+        display: inline-block;
+        background: url("#{$imgUrl}icon_snap.@2x.png") no-repeat 100% 100%;
+        background-size: cover;
+        margin-right: 6px;
+        position: relative;
+        top: 2px;
+      }
+  
+      .likeActive3 {
+        background: url("#{$imgUrl}icon_fabulous_act.png") no-repeat 100% 100%;
+        background-size: cover;
+      }
+    }
+  }
+  
+  .textFrist {
+    padding: 10px 0px;
+  }
+  
+  .praiseMains {
+    padding-left: 40px;
+    padding-bottom: 15px;
+  
+    p {
+      line-height: 24px;
+      white-space:normal;
+    }
+  
+    .praiseWrite {
+      width: 100%;
+      background-color: #f2f2f2;
+      padding: 10px 0;
+  
+      > div {
+        padding: 0 15px;
+        line-height: 18px;
+  
+        span {
+          margin: 0 2px;
+        }
+      }
+  
+      .allWritelist {
+        line-height: 40px;
+  
+        span {
+          color: #9a9a9a;
+          font-size: 12px;
+        }
+  
+        i {
+          display: inline-block;
+          width: 18px;
+          height: 16px;
+          transform: rotate(270deg);
+          position: relative;
+          background: url("#{$imgUrl}icon_arrow_down.png") no-repeat center center;
+          background-size: 100% 100%;
+        }
+      }
+    }
+  }

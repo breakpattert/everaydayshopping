@@ -1,0 +1,48 @@
+{
+  "pages": [
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "天天逛街",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#323232",
+    "color": "#9a9a9a",
+    "backgroundColor": "#fff",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/images/1.png",
+        "selectedIconPath": "static/images/11.png"
+      },
+      {
+        "pagePath": "pages/nearly/nearly",
+        "text": "附近",
+        "iconPath": "static/images/2.png",
+        "selectedIconPath": "static/images/22.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "发现",
+        "iconPath": "static/images/3.png",
+        "selectedIconPath": "static/images/33.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "static/images/4.png",
+        "selectedIconPath": "static/images/44.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/images/5.png",
+        "selectedIconPath": "static/images/55.png"
+      }
+
+    ]
+  }
+}

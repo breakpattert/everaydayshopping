@@ -1,0 +1,93 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": false,
+		"autoAudits": false
+	},
+	"miniprogramRoot": "dist/",
+	"compileType": "miniprogram",
+	"appid": "wxd0207ceb99c246c2",
+	"projectname": "shopping_everyday",
+	"libVersion": "2.4.1",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 8,
+			"list": [
+				{
+					"id": 0,
+					"name": "11",
+					"pathName": "pagesSub/community/labelSearch",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "112",
+					"pathName": "pagesCommunity/community/communitydetail",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "sss",
+					"pathName": "pagesSub/community/newsHome",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "wearStrategy",
+					"pathName": "pagesSub/busineshop/wearStrategy",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "11444444444444444",
+					"pathName": "pagesSub/busineshop/strategyDetil",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "99",
+					"pathName": "pagesSub/busineshop/strategyDetil",
+					"query": "id=4&merchid=&type=info&official=1"
+				},
+				{
+					"id": -1,
+					"name": "文章详情",
+					"pathName": "pagesCommunity/community/communitydetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "askdetail",
+					"pathName": "pagesSub/community/askdetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发布",
+					"pathName": "pagesSub/community/experience"
+				}
+			]
+		}
+	}
+}
